@@ -1,7 +1,29 @@
 # Brain Tumor Classification
 
 ## Overview
-A deep learning project for detecting and classifying brain tumors from MRI images using TensorFlow and OpenCV.
+This project uses Deep Learning and TensorFlow to classify MRI brain scan images and detect brain tumors.
+
+## Features
+- MRI image preprocessing
+- Brain tumor classification
+- TensorFlow-based model
+- Prediction pipeline
+- Modular project structure
+
+## Project Structure
+
+brain-tumor-classification/
+│
+├── data/
+├── src/
+│   ├── model.py
+│   ├── train.py
+│   ├── predict.py
+│   └── utils.py
+│
+├── app.py
+├── requirements.txt
+└── README.md
 
 ## Technologies Used
 - Python
@@ -10,30 +32,11 @@ A deep learning project for detecting and classifying brain tumors from MRI imag
 - NumPy
 - Flask
 
-## Features
-- MRI image preprocessing
-- Brain tumor detection
-- Tumor classification
-- Model prediction API
-
-## Project Structure
-
-```
-brain-tumor-classification/
-│
-├── data/
-├── notebooks/
-├── src/
-├── models/
-├── screenshots/
-└── README.md
-```
-
-## Future Enhancements
-- Docker deployment
-- AWS deployment
-- Web dashboard
-- Model monitoring
+## Future Improvements
+- Model training with larger MRI datasets
+- Deploy using Flask
+- Docker containerization
+- Cloud deployment
 
 ## Author
 Vandana Charabudla
