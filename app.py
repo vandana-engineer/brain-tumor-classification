@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Brain Tumor Classification Project"
+    return "Brain Tumor Classification App is running."
 
 if __name__ == "__main__":
     app.run(debug=True)
